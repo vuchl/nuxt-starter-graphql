@@ -43,7 +43,7 @@ export default {
     },
     releases: {
       query: allReleasesQuery,
-      prefetch: false
+      prefetch: true
     },
     latestCreatedReleaseArray: {
       query: latestReleaseByCreatedAtQuery,
@@ -51,7 +51,7 @@ export default {
     },
     latestUpdatedReleaseArray: {
       query: latestReleaseByUpdatedAtQuery,
-      prefetch: false
+      prefetch: true
     }
   },
   computed: {
