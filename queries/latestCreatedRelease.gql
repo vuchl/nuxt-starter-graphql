@@ -1,0 +1,9 @@
+{
+    latestCreatedReleaseArray: allReleases(last: 1) {
+        creator
+        name
+        imgUrl
+        id
+        createdAt
+    }
+}

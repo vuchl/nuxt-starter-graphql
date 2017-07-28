@@ -1,0 +1,12 @@
+{
+    releases: allReleases {
+        creator
+        name
+        imgUrl
+        soundcloudLink
+        tracks {
+            artist
+            name
+        }
+    }
+}
